@@ -18,17 +18,17 @@ pip install -e .
 ```
 
 ## Examples
-Trans-PEFT$_{o\rightarrow n}$
+Trans-PEFT $_{o\rightarrow n}$
 ```bash
 bash ./scripts/trans-peft-qwen.sh
 ```
 
-Direct Transfer$_{o\rightarrow n}$ and Fine-tune$_{o}$
+Direct Transfer $_{o\rightarrow n}$ and Fine-tune $_{o}$
 ```bash
 bash ./scripts/direct-trans-qwen.sh
 ```
 
-Fine-tune$_{n}$
+Fine-tune $_{n}$
 ```bash
 bash ./scripts/vanilla-ft-qwen.sh
 ```
